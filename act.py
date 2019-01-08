@@ -1,2 +1,3 @@
 #!/usr/bin/python3.7
-print('act')
+act=2
+print(act)
