@@ -10,3 +10,4 @@ def log(func):
 def now():
     print(time.localtime())
 now()
+#equal do log(now)
