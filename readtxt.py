@@ -1,4 +1,5 @@
 #!/usr/bin/python3.7
+import pickle
 f=open('p.txt','w')
 for x in ['aa',123,'txt']:
     f.write(str(x))
@@ -7,7 +8,4 @@ f=open('p.txt','r')
 xx=f.read()
 print('xx=',xx)
 f.close()
-with open('p.txt','r') as ff:
-    x=ff.readline()
-    xxx=x[0:-1]
-    print('x=',x)
+with opne('test.dat','wb') as fe:l/.
